@@ -46,9 +46,16 @@ In this lab, you will prepare your workstation VM for working with ACS and Kuber
     * ``kubectl get nodes``
         *  ![kubectl get nodes](./images/k8sgetnodes.png)
 
-8. In your terminal git clone the repo for this Hackfest
-    * ``git clone https://github.com/chzbrgr71/container-hackfest.git``
-    * cd into the ``/container-hackfest/challenges`` directory 
+8. Explore the Kubernetes dashboard
+    * In the terminal type ``kubectl proxy``
+    * In a web browser open ``http://127.0.0.1:8001/api/v1/proxy/namespaces/kube-system/services/kubernetes-dashboard/#!/cluster?namespace=default``
+    * Explore different resources in the dashboard
+    * You can use the dashboard throughout the challenges to visualize resources you deploy
+
+9. In your terminal git clone the repo for this Hackfest
+    * ``git clone https://github.com/dstrebel/internal-hackfest.git``
+    * cd into the ``/internal-hackfest/challenges`` directory 
+
 
 ## Advanced areas to explore
 

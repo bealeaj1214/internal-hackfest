@@ -5,7 +5,6 @@
 In this lab you will deploy some basic kubernetes resources for a sample application.
 
 ## How to
-
 1. Create a Pod manifest file that has the following parameters
     * Uses 2 Labels zone = prod and version = v1
     * Uses the evillgenius/kuar:1 image
